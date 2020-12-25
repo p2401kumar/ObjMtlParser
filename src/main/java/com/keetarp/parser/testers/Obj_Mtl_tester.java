@@ -1,11 +1,11 @@
-package testers;
+package com.keetarp.parser.testers;
 
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.glu.GLU;
 import com.jogamp.opengl.util.FPSAnimator;
-import parser.TexLess_Parser;
-import parser.Tex_Parser;
+import com.keetarp.parser.parser.TexLess_Parser;
+import com.keetarp.parser.parser.Tex_Parser;
 
 import javax.swing.*;
 import java.awt.*;

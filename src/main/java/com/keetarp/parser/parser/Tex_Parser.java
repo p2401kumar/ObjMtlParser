@@ -1,11 +1,11 @@
-package parser;
+package com.keetarp.parser.parser;
 /**
  * Author: Prateek Kumar
  * @keetarp2401
  */
 
 /**
- * This parser requires obj's, mtl's and texture to be placed inside correct directory 
+ * This com.keetarp.parser.parser requires obj's, mtl's and texture to be placed inside correct directory
  * and it can generate required vectors for indices, vertices etc for rendering
  * 
  */
@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 import com.jogamp.opengl.GL2;
 
-import obj_parser.OBJ_parser;
-import mtl_parser.MTL_texture;
-import mtl_parser.Texture_Transparency;
+import com.keetarp.parser.obj_parser.OBJ_parser;
+import com.keetarp.parser.mtl_parser.MTL_texture;
+import com.keetarp.parser.mtl_parser.Texture_Transparency;
 
 public class Tex_Parser {
 	/**

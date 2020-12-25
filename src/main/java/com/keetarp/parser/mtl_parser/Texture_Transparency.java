@@ -1,4 +1,4 @@
-package mtl_parser;
+package com.keetarp.parser.mtl_parser;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package mtl_parser;
+package com.keetarp.parser.mtl_parser;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-import comman.TheThree;
+import com.keetarp.parser.comman.TheThree;
 
 public class MTL_parser {
 	private HashMap<String, MTL_texture> MTL_TEXTURE;

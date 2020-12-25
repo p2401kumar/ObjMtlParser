@@ -1,6 +1,6 @@
-package mtl_parser;
+package com.keetarp.parser.mtl_parser;
 
-import comman.TheThree;
+import com.keetarp.parser.comman.TheThree;
 
 public class MTL_texture {
 	private TheThree Ka;

@@ -1,4 +1,4 @@
-package comman;
+package com.keetarp.parser.comman;
 
 public class TheThree {
 	float r;

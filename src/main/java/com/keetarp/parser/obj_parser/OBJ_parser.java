@@ -1,4 +1,4 @@
-package obj_parser;
+package com.keetarp.parser.obj_parser;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -8,9 +8,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import comman.TheThree;
-import mtl_parser.MTL_parser;
-import mtl_parser.MTL_texture;
+import com.keetarp.parser.comman.TheThree;
+import com.keetarp.parser.mtl_parser.MTL_parser;
+import com.keetarp.parser.mtl_parser.MTL_texture;
 
 
 public class OBJ_parser {

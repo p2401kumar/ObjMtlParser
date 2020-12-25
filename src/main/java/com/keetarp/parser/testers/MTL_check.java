@@ -1,9 +1,9 @@
-package testers;
+package com.keetarp.parser.testers;
 
 import java.util.HashMap;
 
-import mtl_parser.MTL_parser;
-import mtl_parser.MTL_texture;
+import com.keetarp.parser.mtl_parser.MTL_parser;
+import com.keetarp.parser.mtl_parser.MTL_texture;
 
 public class MTL_check {
 	public static void main(String[] args){

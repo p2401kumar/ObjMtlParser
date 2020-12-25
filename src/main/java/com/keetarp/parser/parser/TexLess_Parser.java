@@ -1,11 +1,11 @@
-package parser;
+package com.keetarp.parser.parser;
 /**
  * Author: Prateek Kumar
  * @keetarp2401
  */
 
 /**
- * Light weight parser for android, parses only obj 
+ * Light weight com.keetarp.parser.parser for android, parses only obj
  * and basic mtl
  */
 import java.awt.Color;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import com.jogamp.opengl.GL2;
-import comman.TheThree;
+import com.keetarp.parser.comman.TheThree;
 
 public class TexLess_Parser {
 	private final int NUM_FACE_VERTICES = 3;
