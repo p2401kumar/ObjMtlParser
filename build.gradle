@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.keetarp.3d'
+group 'com.keetarp.parser'
 version '1.0-SNAPSHOT'
 
 repositories {
