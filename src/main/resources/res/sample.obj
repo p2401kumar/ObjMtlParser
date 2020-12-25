@@ -1,0 +1,64 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = inches
+
+mtllib sample.mtl
+
+g Mesh1 Model
+
+usemtl M_0102_RoyalBlue
+v 100 100 0
+vt -100 100
+vn 0 0 -1
+v 0 0 0
+vt 0 0
+v 0 100 0
+vt 0 100
+f 1/1/1 2/2/1 3/3/1
+
+v 100 0 0
+vt -100 0
+f 2/2/1 1/1/1 4/4/1
+
+usemtl M_0104_MediumBlue
+vt 100 0
+vn 1 0 0
+v 100 0 100
+f 1/5/2 5/3/2 4/2/2
+
+v 100 100 100
+vt 100 100
+f 5/3/2 1/5/2 6/6/2
+
+usemtl M_0065_Lime
+vn 0 1 0
+v 0 100 100
+f 1/4/3 7/3/3 6/1/3
+
+f 7/3/3 1/4/3 3/2/3
+
+usemtl Water_Pool_Light
+vt -1.04167 0
+vn -1 0 0
+vt -1.04167 1.04167
+f 3/7/4 2/2/4 7/8/4
+
+usemtl M_0003_DeepPink
+v 0 0 100
+f 7/1/4 2/2/4 8/3/4
+
+usemtl Roofing_Shingles_GAF_Estates
+vn 0 -1 0
+vt 4.54545 6.10687
+vt 0 6.10687
+f 2/2/5 5/9/5 8/10/5
+
+vt 4.54545 0
+f 5/9/5 2/2/5 4/11/5
+
+usemtl M_0020_Red
+vn 0 0 1
+f 5/5/6 7/3/6 8/2/6
+
+f 7/3/6 5/5/6 6/6/6
+

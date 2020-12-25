@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.keetarp.3d'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile "org.jogamp.gluegen:gluegen-rt:2.3.1"
+    compile "org.jogamp.jogl:jogl-all:2.3.1"
+    runtime "org.jogamp.jogl:jogl-all:2.1.5:natives-linux-amd64"
+    runtime "org.jogamp.gluegen:gluegen-rt:2.1.5:natives-linux-amd64"
+}
+
+test {
+    useJUnitPlatform()
+}
